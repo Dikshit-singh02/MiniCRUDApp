@@ -1,0 +1,84 @@
+body{
+
+    font-family:Arial;
+    
+    width:900px;
+    
+    margin:auto;
+    
+    margin-top:40px;
+    
+    }
+    
+    input,
+    textarea{
+    
+    width:100%;
+    
+    padding:10px;
+    
+    margin-top:10px;
+    
+    margin-bottom:10px;
+    
+    }
+    
+    button{
+    
+    padding:10px 20px;
+    
+    background:green;
+    
+    color:white;
+    
+    border:none;
+    
+    cursor:pointer;
+    
+    }
+    
+    table{
+    
+    width:100%;
+    
+    border-collapse:collapse;
+    
+    margin-top:20px;
+    
+    }
+    
+    table,
+    th,
+    td{
+    
+    border:1px solid gray;
+    
+    }
+    
+    th{
+    
+    background:#4CAF50;
+    
+    color:white;
+    
+    padding:10px;
+    
+    }
+    
+    td{
+    
+    padding:10px;
+    
+    }
+    
+    .edit{
+    
+    background:orange;
+    
+    }
+    
+    .delete{
+    
+    background:red;
+    
+    }
