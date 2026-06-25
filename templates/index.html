@@ -1,107 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-<title>Student Management System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet"
-href="{{ url_for('static', filename='style.css') }}">
+    <title>Student Management System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
 <body>
 
-<h1>Student Management System</h1>
+    <h1>🎓 Student Management System</h1>
 
-<form action="/add" method="POST">
+    <p class="subtitle">
+        Flask + SQLite CRUD Application
+    </p>
 
-<input
-type="text"
-name="name"
-placeholder="Enter Name"
-required>
+    <hr>
 
-<input
-type="email"
-name="email"
-placeholder="Enter Email"
-required>
+    <!-- Add Student Form -->
 
-<textarea
-name="note"
-placeholder="Enter Note"
-required></textarea>
+    <h2>Add Student</h2>
 
-<button type="submit">
-Add Student
-</button>
+    <form action="/add" method="POST">
 
-</form>
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter Name"
+            required>
 
-<hr>
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+            required>
 
-<form method="GET">
+        <textarea
+            name="note"
+            placeholder="Enter Note"
+            required></textarea>
 
-<input
-type="text"
-name="search"
-placeholder="Search by Name"
-value="{{search}}">
+        <button type="submit">
+            Add Student
+        </button>
 
-<button>
-Search
-</button>
+    </form>
 
-</form>
+    <hr>
 
-<h2>Student List</h2>
+    <!-- Search Form -->
 
-<table>
+    <h2>Search Student</h2>
 
-<tr>
+    <form method="GET">
 
-<th>ID</th>
-<th>Name</th>
-<th>Email</th>
-<th>Note</th>
-<th>Action</th>
+        <input
+            type="text"
+            name="search"
+            placeholder="Search by Name"
+            value="{{ search }}">
 
-</tr>
+        <button type="submit">
+            Search
+        </button>
 
-{% for student in students %}
+    </form>
 
-<tr>
+    <hr>
 
-<td>{{student[0]}}</td>
+    <!-- Student Table -->
 
-<td>{{student[1]}}</td>
+    <h2>Student List</h2>
 
-<td>{{student[2]}}</td>
+    <table>
 
-<td>{{student[3]}}</td>
+        <tr>
 
-<td>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Note</th>
+            <th>Action</th>
 
-<a href="/edit/{{student[0]}}">
-<button class="edit">
-Edit
-</button>
-</a>
+        </tr>
 
-<a href="/delete/{{student[0]}}">
-<button class="delete">
-Delete
-</button>
-</a>
+        {% for student in students %}
 
-</td>
+        <tr>
 
-</tr>
+            <td>{{ student[0] }}</td>
+            <td>{{ student[1] }}</td>
+            <td>{{ student[2] }}</td>
+            <td>{{ student[3] }}</td>
 
-{% endfor %}
+            <td>
 
-</table>
+                <a href="/edit/{{ student[0] }}">
+                    <button type="button" class="edit">
+                        Edit
+                    </button>
+                </a>
+
+                <a href="/delete/{{ student[0] }}"
+                   onclick="return confirm('Are you sure you want to delete this student?');">
+
+                    <button type="button" class="delete">
+                        Delete
+                    </button>
+
+                </a>
+
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+    <hr>
+
+    <footer>
+
+        <p>
+            Developed by <strong>Dikshit Singh</strong>
+        </p>
+
+    </footer>
 
 </body>
 
