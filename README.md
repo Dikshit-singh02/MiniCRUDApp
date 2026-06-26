@@ -2,41 +2,33 @@
 
 # 🎓 Student Management System
 
-> A simple and responsive **Student Management System** built using **Python, Flask, and SQLite**. This project demonstrates complete **CRUD (Create, Read, Update, Delete)** operations with a clean web interface and SQLite database integration.
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-3.1.2-black?logo=flask)
+![SQLite](https://img.shields.io/badge/Database-SQLite-blue)
+![License](https://img.shields.io/badge/License-Educational-green)
 
-> 🚀 Developed as part of the **NestorBird Engineering Intern Assignment 2026**.
+A web-based **Student Management System** built using **Python, Flask, and SQLite**. This project demonstrates complete **CRUD (Create, Read, Update, Delete)** operations with a clean and responsive user interface.
+
+> 🚀 Submitted as part of the **NestorBird Engineering Intern Assignment 2026**.
 
 ---
 
 # 📌 Project Overview
 
-The Student Management System allows users to efficiently manage student records through an easy-to-use web interface.
+This application allows users to efficiently manage student records through a simple web interface.
 
-### Users can:
+### Features
 
-* ➕ Add Student Records
-* 📋 View All Students
-* ✏️ Edit Student Information
+* ➕ Add Student
+* 📋 View Student Records
+* ✏️ Edit Student Details
 * 🗑️ Delete Student Records
 * 🔍 Search Students by Name
-* 💾 Store Data Using SQLite Database
+* 💾 SQLite Database Integration
 
 ---
 
-# 🚀 Features
-
-* ✅ Create Student
-* ✅ Read Student Records
-* ✅ Update Student Details
-* ✅ Delete Student Records
-* ✅ Search Student by Name
-* ✅ SQLite Database Integration
-* ✅ Responsive User Interface
-* ✅ Clean Project Structure
-
----
-
-# 🛠️ Technology Stack
+# 🛠️ Tech Stack
 
 * Python 3.13
 * Flask 3.1.2
@@ -53,8 +45,8 @@ MiniCRUDApp/
 │
 ├── app.py
 ├── database.db
-├── requirements.txt
 ├── README.md
+├── requirements.txt
 │
 ├── static/
 │   └── style.css
@@ -68,25 +60,25 @@ MiniCRUDApp/
 
 # ⚙️ Installation
 
-### 1️⃣ Clone Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/your-github-username/MiniCRUDApp.git
+git clone https://github.com/Dikshit-singh02/MiniCRUDApp.git
 ```
 
-### 2️⃣ Open Project Folder
+### Navigate to Project
 
 ```bash
 cd MiniCRUDApp
 ```
 
-### 3️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run Application
+### Run the Application
 
 ```bash
 python app.py
@@ -106,9 +98,7 @@ http://127.0.0.1:5000
 
 # 💾 Database
 
-Database Used:
-
-**SQLite**
+This project uses **SQLite** as the backend database.
 
 Database File:
 
@@ -116,7 +106,7 @@ Database File:
 database.db
 ```
 
-Database Table:
+Table:
 
 ```text
 students
@@ -135,7 +125,7 @@ students
 
 ## 🏠 Home Page
 
-> *(Add your homepage screenshot here)*
+Replace this image with your screenshot.
 
 ```markdown
 ![Home Page](screenshots/homepage.png)
@@ -145,8 +135,6 @@ students
 
 ## ➕ Add Student
 
-> *(Add Add Student page screenshot here)*
-
 ```markdown
 ![Add Student](screenshots/add-student.png)
 ```
@@ -154,8 +142,6 @@ students
 ---
 
 ## ✏️ Edit Student
-
-> *(Add Edit Student page screenshot here)*
 
 ```markdown
 ![Edit Student](screenshots/edit-student.png)
@@ -165,8 +151,6 @@ students
 
 ## 🔍 Search Student
 
-> *(Add Search page screenshot here)*
-
 ```markdown
 ![Search Student](screenshots/search-student.png)
 ```
@@ -175,31 +159,30 @@ students
 
 # 🎥 Project Demo Video
 
-You can watch the complete project demonstration here:
+Watch the complete project demonstration here:
 
-🔗 **Demo Video:**
+**Demo Video:**
 
 ```text
-https://your-demo-video-link-here.com
+https://your-video-link-here
 ```
 
-> Replace the above link with your YouTube, Loom, Google Drive, or any other video link after uploading your demo.
+> Replace this placeholder with your Loom, YouTube, or Google Drive video link after uploading your demo.
 
 ---
 
 # 📚 Learning Outcomes
 
-During this project, I learned:
+During this project I learned:
 
 * Flask Routing
 * CRUD Operations
 * SQLite Database Integration
 * HTML Forms
-* CSS Styling
 * Jinja2 Templates
+* CSS Styling
 * Search Functionality
 * Backend Development with Flask
-* Database Operations using SQLite
 
 ---
 
@@ -207,25 +190,22 @@ During this project, I learned:
 
 * User Authentication
 * Bootstrap UI
-* Email Validation
-* Export Student Data to CSV
-* Dashboard Analytics
-* REST API Integration
+* Export Data to CSV
 * Pagination
+* REST API Integration
+* Dashboard Analytics
 
 ---
 
 # 👨‍💻 Developed By
 
-## **Dikshit Singh**
+## Dikshit Singh
 
 **MCA Student (2026)**
 **Chandigarh University**
 
-### Connect with Me
-
 **GitHub:**
-https://github.com/your-github-username
+https://github.com/Dikshit-singh02
 
 **LinkedIn:**
 https://www.linkedin.com/in/dikshitsingh99/
@@ -234,8 +214,8 @@ https://www.linkedin.com/in/dikshitsingh99/
 
 # 📄 License
 
-This project is created for educational purposes and submitted as part of the **NestorBird Engineering Intern Assignment 2026**.
+This project is developed for educational purposes and submitted as part of the **NestorBird Engineering Intern Assignment 2026**.
 
 ---
 
-⭐ **If you found this project useful, consider giving it a star on GitHub!**
+⭐ If you found this project helpful, feel free to star the repository!
