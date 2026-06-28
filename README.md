@@ -17,7 +17,7 @@ A web-based **Student Management System** built using **Python, Flask, and SQLit
 
 The Student Management System enables users to manage student records efficiently.
 
-### Features
+## ✨ Features
 
 * ➕ Add Student
 * 📋 View Student Records
@@ -40,7 +40,7 @@ The Student Management System enables users to manage student records efficientl
 
 # 📂 Project Structure
 
-```
+```text
 MiniCRUDApp/
 │
 ├── screenshots/
@@ -66,25 +66,25 @@ MiniCRUDApp/
 
 # 🚀 Installation & Setup
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Dikshit-singh02/MiniCRUDApp.git
 ```
 
-### 2. Navigate to the Project Folder
+## 2. Navigate to the Project Folder
 
 ```bash
 cd MiniCRUDApp
 ```
 
-### 3. Install Dependencies
+## 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+## 4. Run the Application
 
 ```bash
 python app.py
@@ -96,7 +96,7 @@ python app.py
 
 Open your browser and visit:
 
-```
+```text
 http://127.0.0.1:5000
 ```
 
@@ -106,15 +106,15 @@ http://127.0.0.1:5000
 
 This project uses **SQLite** for storing student records.
 
-**Database File**
+### Database File
 
-```
+```text
 database.db
 ```
 
-**Table Name**
+### Table Name
 
-```
+```text
 students
 ```
 
@@ -157,11 +157,20 @@ students
 
 Watch the complete project demonstration here:
 
-**🔗 Demo Video**
+## 🔗 Loom Demo Video
 
-https://your-demo-video-link-here
+https://www.loom.com/share/84b53f2888254043a30e1b08d4e994d8
 
-> Replace the above link with your YouTube, Loom, or Google Drive video after uploading your demo.
+The demo video covers:
+
+* Project Overview
+* Application Workflow
+* Add Student (Create)
+* View Student Records (Read)
+* Edit Student Details (Update)
+* Delete Student Records (Delete)
+* Search Student by Name
+* SQLite Database Integration
 
 ---
 
@@ -199,10 +208,12 @@ This project helped me gain hands-on experience with:
 **MCA Student (2026)**
 **Chandigarh University**
 
-🔗 **GitHub:**
+### GitHub
+
 https://github.com/Dikshit-singh02
 
-🔗 **LinkedIn:**
+### LinkedIn
+
 https://www.linkedin.com/in/dikshitsingh99/
 
 ---
@@ -213,4 +224,4 @@ This project is developed for educational purposes and submitted as part of the 
 
 ---
 
-⭐ **If you like this project, consider giving it a Star on GitHub!**
+⭐ **If you found this project helpful, consider giving it a Star on GitHub!**
